@@ -847,9 +847,6 @@
           cursor: pointer;
           padding-block: 10px;
           padding-inline: 76px;
-      }
-      
-      .modal-button span {
           color: var(--color-white);
           font-size: 16px;
           font-weight: 700;
