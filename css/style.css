@@ -815,6 +815,7 @@
           transition: 250ms cubic-bezier(0.4, 0, 0.2, 1);
           padding-left: 40px;
           outline: none;
+          padding-bottom: 4px;
       }
       
       .label input:focus {
@@ -830,7 +831,7 @@
           position: absolute;
           height: 18px;
           width: 18px;
-          margin-block: 14px;
+          /* margin-block: 14px; */
           margin-left: 15px;
       }
       /* modal button */
