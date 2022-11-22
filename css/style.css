@@ -795,7 +795,7 @@
       }
       /* input label style */
       
-      .label :first-child {
+      .label-title {
           display: flex;
           margin-top: 10px;
           margin-bottom: 4px;
@@ -822,17 +822,22 @@
           border: 1px solid var(--hover-color);
       }
       
+      .svg-wrap {
+          position: relative;
+      }
+      
       .label:focus-within svg {
           fill: var(--hover-color);
       }
       /* imput vsg style */
       
-      .label .modal-svg {
-          position: absolute;
+      .modal-svg {
           height: 18px;
           width: 18px;
-          /* margin-block: 14px; */
           margin-left: 15px;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
       }
       /* modal button */
       
@@ -863,7 +868,7 @@
           margin-bottom: 30px;
       }
       
-      .label-2 :first-child {
+      .label-2-title {
           font-size: 12px;
           color: var(--color-grey);
           margin-top: 10px;
